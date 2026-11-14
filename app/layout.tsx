@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 export const metadata: Metadata = {
+  metadataBase: new URL('https://happybirthdaynony-ten.vercel.app'),
   title: 'A Special Gift For You 🎁',
   description: 'A heartfelt birthday message just for you.',
 }
